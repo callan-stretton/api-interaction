@@ -15,7 +15,7 @@ function getProverb (evt) { // runs when button clicked
 function sendTweet() { // runs when button clicked
   var url = "https://twitter.com/intent/tweet";
   var text = document.getElementById("proverb").innerHTML;
-  var hashtags = "KaPai";
+  var hashtags = "MaoriProverbsRock";
   var via = "username";
   window.open(url + "?text=" + text + ";hashtags=" + hashtags, "", "width=500, height=300"); // opens new window with text ready to send via Twitter
 }

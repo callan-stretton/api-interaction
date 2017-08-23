@@ -1,1 +1,23 @@
-/* I will come back to this! */
+body {
+  margin: 0;
+  background: #bfc2ff;
+  font-family: helvetica;
+}
+
+input[type=button] {
+    padding:5px 15px;
+    background:#317ef2;
+    color: white;
+    border:0 none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*
+.wrapper {
+  max-width: 960px;
+  background: #bfc2ff;
+  margin: 10px auto 0 auto;
+  padding: 2px 15px;
+}
+*/
