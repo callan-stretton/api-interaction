@@ -4,6 +4,7 @@ var translationP = document.getElementById("translation"); // translation paragr
 function getProverb (evt) { // runs when button clicked
   var xhr = new XMLHttpRequest(); // defining my XML HTTP Request variable
   xhr.open('GET', 'https://eda-te-reo.herokuapp.com/api/proverbs'); // initialising my request
+  proverbP.innerHTML = "Loading..."; // shows this while loading
   xhr.onload = function () {
     var ranProverb = JSON.parse(xhr.responseText); // brings in data as JS object
     proverbP.innerHTML = ranProverb.source; // only selecting the source(proverb) property
